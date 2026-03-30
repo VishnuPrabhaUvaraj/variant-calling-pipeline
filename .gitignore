@@ -1,26 +1,37 @@
-# Large data files - never commit these
+# Large sequencing data files
 data/raw/*.fastq.gz
+data/raw/*.fastq
 data/trimmed/*.fastq.gz
+data/trimmed/*.fastq
+
+# Reference genome files
 data/reference/*.fa
 data/reference/*.fa.gz
 data/reference/*.vcf.gz
+data/reference/*.fai
+data/reference/*.bwt
+data/reference/*.pac
+data/reference/*.ann
+data/reference/*.amb
+data/reference/*.sa
+data/reference/*.dict
 
-# BAM/alignment files
+# BAM alignment files (large)
 results/alignment/*.bam
 results/alignment/*.bai
+results/alignment/NA12878.coverage.txt
+
+# Large VCF files
 results/variants/*.bam
-results/variants/*.vcf.gz
+results/variants/*.raw.vcf.gz
 
 # Python
 *.pyc
 __pycache__/
 .ipynb_checkpoints/
 
-# Logs (optional - you can commit these if you want)
+# Logs
 logs/*.log
-results/variants/*.raw.vcf.gz
-results/variants/*.raw.vcf.gz.tbi
-data/raw/
-data/trimmed/
-data/reference/
-results/alignment/NA12878.coverage.txt
+
+# SnpEff downloaded data
+snpEff/
