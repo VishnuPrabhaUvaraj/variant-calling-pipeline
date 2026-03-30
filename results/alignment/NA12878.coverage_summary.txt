@@ -1,0 +1,1 @@
+Mean coverage depth: 0.47x
