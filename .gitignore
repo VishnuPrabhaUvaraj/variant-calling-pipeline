@@ -18,3 +18,5 @@ __pycache__/
 
 # Logs (optional - you can commit these if you want)
 logs/*.log
+results/variants/*.raw.vcf.gz
+results/variants/*.raw.vcf.gz.tbi
