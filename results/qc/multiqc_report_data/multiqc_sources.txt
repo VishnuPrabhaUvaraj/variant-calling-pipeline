@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	NA12878_R1	/home/vishnuprabha/variant-calling-pipeline/results/qc/trimmed/NA12878_R1_trimmed_fastqc.zip
+FastQC	all_sections	NA12878_R2	/home/vishnuprabha/variant-calling-pipeline/results/qc/trimmed/NA12878_R2_trimmed_fastqc.zip

@@ -1,0 +1,3 @@
+Sample	Unique Reads	Duplicate Reads
+NA12878_R1	99789.0	179.0
+NA12878_R2	99804.0	164.0
