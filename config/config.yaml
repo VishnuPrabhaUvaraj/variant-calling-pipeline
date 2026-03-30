@@ -1,0 +1,6 @@
+sample: "NA12878"
+reference: "data/reference/chr20.fa"
+known_snps: "data/reference/dbsnp_146.hg38.vcf.gz"
+known_indels: "data/reference/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz"
+threads: 4
+adapter: "/home/vishnuprabha/miniconda3/envs/variant-pipeline/share/trimmomatic-0.40-0/adapters/TruSeq3-PE.fa"
