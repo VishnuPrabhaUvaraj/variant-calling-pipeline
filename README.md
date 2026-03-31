@@ -45,12 +45,12 @@ An end-to-end whole exome sequencing (WES) variant calling pipeline following GA
 
 ## Pipeline Steps
 
-1. **Quality Control** — FastQC + Trimmomatic adapter trimming
-2. **Alignment** — BWA-MEM alignment to hg38 chromosome 20
-3. **BAM Processing** — SAMtools sort/index, Picard MarkDuplicates
-4. **Variant Calling** — GATK4 HaplotypeCaller with hard filtering
-5. **Annotation** — SnpEff annotation against GRCh38.99 database
-6. **Analysis** — Python visualisations (matplotlib, pandas)
+1. **Quality Control** - FastQC + Trimmomatic adapter trimming
+2. **Alignment** - BWA-MEM alignment to hg38 chromosome 20
+3. **BAM Processing** - SAMtools sort/index, Picard MarkDuplicates
+4. **Variant Calling** - GATK4 HaplotypeCaller with hard filtering
+5. **Annotation** - SnpEff annotation against GRCh38.99 database
+6. **Analysis** - Python visualisations (matplotlib, pandas)
 
 ## Dataset
 
@@ -102,4 +102,4 @@ variant-calling-pipeline/
 
 ## Author
 
-Vishnuprabha — MSc Bioinformatics
+Vishnuprabha - MSc Bioinformatics
