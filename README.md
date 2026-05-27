@@ -102,4 +102,4 @@ variant-calling-pipeline/
 
 ## Author
 
-Vishnuprabha - MSc Bioinformatics
+Vishnuprabha Uvaraj
